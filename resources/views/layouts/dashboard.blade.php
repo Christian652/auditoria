@@ -7,12 +7,14 @@
     <link rel="stylesheet" href="{{asset('css/bootstrap.css')}}">
     <link rel="stylesheet" href="{{asset('css/dashboard.css')}}">
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
-    
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bellota+Text&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   </head>
   <body class="bg-light">
 
-    <nav class="navbar navbar-expand navbar-dark bg-info">
+    <nav class="navbar navbar-expand navbar-dark bg-secondary">
 
         <a class="sidebar-toggle text-light mr-3">
             <span class="navbar-toggler-icon"></span>
@@ -31,7 +33,7 @@
       <div class="d-flex">
           <nav class="sidebar">
               <ul class="list-unstyled">
-                  <li class="p-3 text-center text-white font-weight-bold">
+                  <li class="p-3 text-center text-white">
                     Usuario:
                     {{Auth::user()->name}}
                   </li>
